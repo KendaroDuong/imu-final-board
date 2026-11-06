@@ -1,0 +1,773 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e5b5f554-bb6f-4ecb-9cfb-c4d676c83727")
+	(paper "A4")
+	(title_block
+		(title "Psionic IMU - Final Board")
+		(rev "02")
+		(company "VT ECE 4805 / Psionic")
+	)
+	(lib_symbols)
+	(text "Rev-02 final board. Sensor sheets are carried over unchanged from Rev-01 (origin/adrian, 44ecbd0).\nThe MCU and Power/M.2 sheets are new for Rev-02. UART and trigger pins on M.2 still need Psionic's agreement."
+		(exclude_from_sim no)
+		(at 30 20 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left top)
+		)
+		(uuid "68db9ea6-a022-4ab5-90d4-981bb8ca1b95")
+	)
+	(global_label "ADXL_INT0"
+		(shape bidirectional)
+		(at 200.66 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "046632d2-38d9-4a2a-af46-edc9d4cd54bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "FSYNC_ADXL"
+		(shape bidirectional)
+		(at 200.66 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06e63c2d-3758-40fa-a30e-1b63ede9ec83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape bidirectional)
+		(at 200.66 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "240d0051-b2ae-4d0c-8930-cefa62e8b9c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "CS_ICM"
+		(shape bidirectional)
+		(at 200.66 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cd67fa9-a8db-42f4-b15b-e9eb546c1ac4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "ADXL_INT1"
+		(shape bidirectional)
+		(at 200.66 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a937f6e-b92d-47d8-a3f7-f39d3470d3b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "ICM_INT1"
+		(shape bidirectional)
+		(at 200.66 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "63855558-3105-4a70-8a19-918a4b73a623")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "Mag_INT"
+		(shape bidirectional)
+		(at 38.1 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f2cc83b-0ae8-440f-85e9-b0e5a56ea8c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape bidirectional)
+		(at 38.1 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7aef1142-5f1f-4142-8c30-d130608087cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "CS_ADXL"
+		(shape bidirectional)
+		(at 200.66 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7af4fc0a-1386-4e86-b68e-15be6c5e9065")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape bidirectional)
+		(at 200.66 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d551377-59da-48e8-9740-6ab8983abbc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "CS_BARO"
+		(shape bidirectional)
+		(at 38.1 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8661f4d5-b9c7-4d46-a857-7e2d8493ce57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape bidirectional)
+		(at 200.66 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3dba93a-3072-4d97-b196-521a097c326a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "CS_MAG"
+		(shape bidirectional)
+		(at 38.1 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8f1b8f0-4963-4eab-8780-0defb444f4a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "Baro_INT"
+		(shape bidirectional)
+		(at 38.1 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da6b31be-e2c4-47a4-b04b-045b169a259f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape bidirectional)
+		(at 38.1 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb89b98f-7b73-4986-9c71-8867c99ae6b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape bidirectional)
+		(at 38.1 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff42dab9-1446-4fe6-96ab-5215509eacd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "FSYNC_ICM"
+		(shape bidirectional)
+		(at 200.66 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffb1b67f-bad6-48d8-81b2-aa680c124dae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 27.94)
+		(size 41.275 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "38e0ac5b-4602-4996-9f8b-d7ac020f4a8a")
+		(property "Sheetname" "Accel & Gyro"
+			(at 200.66 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Accel_Gyro.kicad_sch"
+			(at 200.66 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CS_ADXL" input
+			(at 200.66 31.75 180)
+			(uuid "a0b9229a-661a-4ab8-a700-de3697f30d74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_ICM" input
+			(at 200.66 34.29 180)
+			(uuid "56297bec-85fa-4cc1-84a3-bcd15a578ee5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT0_ADXL" input
+			(at 200.66 36.83 180)
+			(uuid "e66c9029-5d2f-49b0-a94d-17f7039baa60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT1_ADXL" input
+			(at 200.66 39.37 180)
+			(uuid "548d3c38-eb88-4493-87c0-42c610245d37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT1_ICM" output
+			(at 200.66 41.91 180)
+			(uuid "3d5a4d53-bfd1-4611-bb8e-f6b6041c736b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_Gyro_Accel" input
+			(at 200.66 44.45 180)
+			(uuid "cba90abf-59f2-4867-ba9d-1ff0c2372fa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI_Gyro_Accel" input
+			(at 200.66 46.99 180)
+			(uuid "1c80e5de-889b-45da-b2a7-860ce005ce7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDO_Gyro_Accel" output
+			(at 200.66 49.53 180)
+			(uuid "dbb1cc29-21db-45ce-9b4d-28239c2cbe55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FSYNC_ADXL" input
+			(at 200.66 52.07 180)
+			(uuid "bf1ca736-c9cb-4aaa-9282-0dfde772daf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FSYNC_ICM" input
+			(at 200.66 54.61 180)
+			(uuid "47b587cb-6041-4194-8eb4-ce75f3ffd668")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Final_Board"
+				(path "/e5b5f554-bb6f-4ecb-9cfb-c4d676c83727"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 60)
+		(size 50 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "42310529-ea7e-4c91-a640-906db6f8efe0")
+		(property "Sheetname" "MCU"
+			(at 30 59.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 30 90.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Final_Board"
+				(path "/e5b5f554-bb6f-4ecb-9cfb-c4d676c83727"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 124.46)
+		(size 26.67 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6b10effe-460f-49e2-814c-7c016a47a2da")
+		(property "Sheetname" "Magnetmeter and Barometer"
+			(at 38.1 123.7484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mag_Baro.kicad_sch"
+			(at 38.1 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Baro_CS" input
+			(at 38.1 127 180)
+			(uuid "93ca232b-b34e-4d6e-8fc6-1239dc6ca7fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Baro_INT" input
+			(at 38.1 129.54 180)
+			(uuid "e14e9b98-a9a3-4ca0-b804-90bfe81bd737")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Mag_Baro_SCK" input
+			(at 38.1 132.08 180)
+			(uuid "0c8f8e29-64c7-4550-8d5a-16de88f2831d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Mag_Baro_SDI" input
+			(at 38.1 134.62 180)
+			(uuid "ac309e06-fb23-4778-8971-8537c9004b17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Mag_Baro_SDO" output
+			(at 38.1 137.16 180)
+			(uuid "15d5790b-259c-429e-97f5-11dfa0006c8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Mag_CS" input
+			(at 38.1 139.7 180)
+			(uuid "09f3e3e7-c656-4da3-bd6a-9932d6264d03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Mag_INT" input
+			(at 38.1 142.24 180)
+			(uuid "13e0ec3e-3117-4fff-9199-d094885d24ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Final_Board"
+				(path "/e5b5f554-bb6f-4ecb-9cfb-c4d676c83727"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100 60)
+		(size 50 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "94245986-8ad6-4a6f-ad61-2e0610294c54")
+		(property "Sheetname" "Power_M2_IO"
+			(at 100 59.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_M2_IO.kicad_sch"
+			(at 100 90.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Final_Board"
+				(path "/e5b5f554-bb6f-4ecb-9cfb-c4d676c83727"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
