@@ -21,9 +21,109 @@
 		)
 		(uuid "68db9ea6-a022-4ab5-90d4-981bb8ca1b95")
 	)
+	(wire
+		(pts
+			(xy 198.12 52.07) (xy 200.66 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0887291c-128f-4f53-a08d-469e93150d70")
+	)
+	(wire
+		(pts
+			(xy 198.12 41.91) (xy 200.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c0f28d-fcb0-4e0c-9778-e2d63de86bf4")
+	)
+	(wire
+		(pts
+			(xy 198.12 31.75) (xy 200.66 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520816d0-df2a-47ca-9a6d-897245fc0c89")
+	)
+	(wire
+		(pts
+			(xy 198.12 54.61) (xy 200.66 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e3fed7-3511-4bb0-9098-852753e56eb4")
+	)
+	(wire
+		(pts
+			(xy 198.12 46.99) (xy 200.66 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6344d625-fc96-4467-aae8-110961b95ec0")
+	)
+	(wire
+		(pts
+			(xy 198.12 39.37) (xy 200.66 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971f813b-96e8-4da9-aaf6-c48c7b329dc3")
+	)
+	(wire
+		(pts
+			(xy 198.12 44.45) (xy 200.66 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33735cd-aa43-4c2b-9db4-6b0e402dc54f")
+	)
+	(wire
+		(pts
+			(xy 198.12 49.53) (xy 200.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebc825e-d958-4254-91c0-80ae234d47e2")
+	)
+	(wire
+		(pts
+			(xy 198.12 36.83) (xy 200.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f788f986-406b-4966-a6fa-ec790ddef08f")
+	)
+	(wire
+		(pts
+			(xy 198.12 34.29) (xy 200.66 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc407882-006f-494c-bf25-74164b4e9754")
+	)
 	(global_label "ADXL_INT0"
 		(shape bidirectional)
-		(at 200.66 36.83 180)
+		(at 198.12 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33,7 +133,7 @@
 		)
 		(uuid "046632d2-38d9-4a2a-af46-edc9d4cd54bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 36.83 0)
+			(at 198.12 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46,7 +146,7 @@
 	)
 	(global_label "FSYNC_ADXL"
 		(shape bidirectional)
-		(at 200.66 52.07 180)
+		(at 198.12 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -56,7 +156,7 @@
 		)
 		(uuid "06e63c2d-3758-40fa-a30e-1b63ede9ec83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 52.07 0)
+			(at 198.12 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -69,7 +169,7 @@
 	)
 	(global_label "MOSI"
 		(shape bidirectional)
-		(at 200.66 46.99 180)
+		(at 198.12 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -79,7 +179,7 @@
 		)
 		(uuid "240d0051-b2ae-4d0c-8930-cefa62e8b9c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 46.99 0)
+			(at 198.12 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -92,7 +192,7 @@
 	)
 	(global_label "CS_ICM"
 		(shape bidirectional)
-		(at 200.66 34.29 180)
+		(at 198.12 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -102,7 +202,7 @@
 		)
 		(uuid "2cd67fa9-a8db-42f4-b15b-e9eb546c1ac4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 34.29 0)
+			(at 198.12 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -115,7 +215,7 @@
 	)
 	(global_label "ADXL_INT1"
 		(shape bidirectional)
-		(at 200.66 39.37 180)
+		(at 198.12 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -125,7 +225,7 @@
 		)
 		(uuid "5a937f6e-b92d-47d8-a3f7-f39d3470d3b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 39.37 0)
+			(at 198.12 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -138,7 +238,7 @@
 	)
 	(global_label "ICM_INT1"
 		(shape bidirectional)
-		(at 200.66 41.91 180)
+		(at 198.12 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -148,7 +248,7 @@
 		)
 		(uuid "63855558-3105-4a70-8a19-918a4b73a623")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 41.91 0)
+			(at 198.12 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -207,7 +307,7 @@
 	)
 	(global_label "CS_ADXL"
 		(shape bidirectional)
-		(at 200.66 31.75 180)
+		(at 198.12 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -217,7 +317,7 @@
 		)
 		(uuid "7af4fc0a-1386-4e86-b68e-15be6c5e9065")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 31.75 0)
+			(at 198.12 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -230,7 +330,7 @@
 	)
 	(global_label "MISO"
 		(shape bidirectional)
-		(at 200.66 49.53 180)
+		(at 198.12 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -240,7 +340,7 @@
 		)
 		(uuid "7d551377-59da-48e8-9740-6ab8983abbc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 49.53 0)
+			(at 198.12 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -276,7 +376,7 @@
 	)
 	(global_label "SCLK"
 		(shape bidirectional)
-		(at 200.66 44.45 180)
+		(at 198.12 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -286,7 +386,7 @@
 		)
 		(uuid "a3dba93a-3072-4d97-b196-521a097c326a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 44.45 0)
+			(at 198.12 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -391,7 +491,7 @@
 	)
 	(global_label "FSYNC_ICM"
 		(shape bidirectional)
-		(at 200.66 54.61 180)
+		(at 198.12 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -401,7 +501,7 @@
 		)
 		(uuid "ffb1b67f-bad6-48d8-81b2-aa680c124dae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 54.61 0)
+			(at 198.12 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -559,7 +659,7 @@
 		)
 	)
 	(sheet
-		(at 30 60)
+		(at 31.27 30.79)
 		(size 50 30)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -574,7 +674,7 @@
 		)
 		(uuid "42310529-ea7e-4c91-a640-906db6f8efe0")
 		(property "Sheetname" "MCU"
-			(at 30 59.3 0)
+			(at 31.27 30.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -585,7 +685,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 30 90.6 0)
+			(at 31.27 61.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
